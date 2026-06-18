@@ -6,6 +6,7 @@ repositories: []Repository,
 user: []const u8,
 name: []const u8,
 emails: [][]const u8,
+years_active: usize = 0,
 repo_contributions: u32 = 0,
 issue_contributions: u32 = 0,
 commit_contributions: u32 = 0,
@@ -502,6 +503,7 @@ fn getRepos(
 
     result.user = try allocator.dupe(u8, info.user);
     errdefer allocator.free(result.user);
+    result.years_active = info.years.len;
     result.name = try allocator.dupe(u8, info.name orelse info.user);
     errdefer allocator.free(result.name);
 
