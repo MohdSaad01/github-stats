@@ -249,6 +249,7 @@ pub fn main(init: std.process.Init) !void {
         languages: std.array_hash_map.String(u64),
         language_colors: std.array_hash_map.String([]const u8),
         contributions: usize,
+        commit_contributions: usize,
         name: []const u8,
         languages_total: usize = 0,
         stars: usize = 0,
@@ -262,6 +263,7 @@ pub fn main(init: std.process.Init) !void {
             stats.commit_contributions +
             stats.pr_contributions +
             stats.review_contributions,
+        .commit_contributions = stats.commit_contributions,
         .languages = try .init(allocator, &.{}, &.{}),
         .language_colors = try .init(allocator, &.{}, &.{}),
         .name = stats.name,
