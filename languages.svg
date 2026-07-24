@@ -134,19 +134,22 @@ div.ellipsis {
 <span class="progress">
 <span style="
   background-color: #e34c26; 
-  width: 29.664%;
+  width: 28.996%;
 " class="progress-item"></span><span style="
   background-color: #3572A5; 
-  width: 25.336%;
+  width: 24.765%;
 " class="progress-item"></span><span style="
   background-color: #663399; 
-  width: 19.196%;
+  width: 18.764%;
 " class="progress-item"></span><span style="
   background-color: #555555; 
-  width: 14.296%;
+  width: 13.974%;
 " class="progress-item"></span><span style="
   background-color: #f34b7d; 
-  width: 11.508%;
+  width: 11.249%;
+" class="progress-item"></span><span style="
+  background-color: #dea584; 
+  width: 2.252%;
 " class="progress-item"></span>
 </span>
 </div>
@@ -167,7 +170,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">HTML</span>
-  <span class="percent">29.66%</span>
+  <span class="percent">29.00%</span>
 </li>
 <li style="animation-delay: 300ms;">
   <svg 
@@ -183,7 +186,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Python</span>
-  <span class="percent">25.34%</span>
+  <span class="percent">24.77%</span>
 </li>
 <li style="animation-delay: 450ms;">
   <svg 
@@ -199,7 +202,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">CSS</span>
-  <span class="percent">19.20%</span>
+  <span class="percent">18.76%</span>
 </li>
 <li style="animation-delay: 600ms;">
   <svg 
@@ -215,7 +218,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">C</span>
-  <span class="percent">14.30%</span>
+  <span class="percent">13.97%</span>
 </li>
 <li style="animation-delay: 750ms;">
   <svg 
@@ -231,7 +234,23 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">C++</span>
-  <span class="percent">11.51%</span>
+  <span class="percent">11.25%</span>
+</li>
+<li style="animation-delay: 900ms;">
+  <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      class="octicon"
+      style="fill: #dea584;" 
+      viewBox="0 0 16 16" 
+      version="1.1" 
+      width="16" 
+      height="16"
+  ><path 
+      fill-rule="evenodd" 
+      d="M8 4a4 4 0 100 8 4 4 0 000-8z"
+  ></path></svg>
+  <span class="lang">Rust</span>
+  <span class="percent">2.25%</span>
 </li>
 
 
